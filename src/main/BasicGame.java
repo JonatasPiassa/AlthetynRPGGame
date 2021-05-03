@@ -49,6 +49,8 @@ public class BasicGame extends BasicGameState
 		
 		guerreiro.draw(-250, 15);
 		
+		g.drawString("Aperte Enter para continuar", 10, 25);
+		
 		g.setColor(Color.yellow);
 		g.drawString("Era um dia comum em uma cidade comum, onde vocês estavam no lugar\r\n"
 				+ "que comumumente frequentavam a taberna de Altheryn.\r\n"
@@ -73,7 +75,8 @@ public class BasicGame extends BasicGameState
 
 	
 				if(enterPressed) {
-					g.drawString("continuar", 650, 700);
+					g.setColor(Color.yellow);
+					g.drawString("continuar", 1250, 700);
 				}
 		
 		// TODO Auto-generated method stub
