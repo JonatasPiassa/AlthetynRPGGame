@@ -52,24 +52,24 @@ public class BasicGame extends BasicGameState
 		g.drawString("Aperte Enter para continuar", 10, 25);
 		
 		g.setColor(Color.yellow);
-		g.drawString("Era um dia comum em uma cidade comum, onde vocês estavam no lugar\r\n"
+		g.drawString("Era um dia comum em uma cidade comum, onde vocï¿½s estavam no lugar\r\n"
 				+ "que comumumente frequentavam a taberna de Altheryn.\r\n"
-				+ "Até que um estranho aproxima-se de vocês, e assim começa a conversar,\r\n"
-				+ "ele não era grande nem parecia um guerreiro, pra ser mais sincero era mais\r\n"
+				+ "Atï¿½ que um estranho aproxima-se de vocï¿½s, e assim comeï¿½a a conversar,\r\n"
+				+ "ele nï¿½o era grande nem parecia um guerreiro, pra ser mais sincero era mais\r\n"
 				+ "como um civil.\r\n"
-				+ "Vocês passam horas conversando. Sem nenhuma noção de tempo.\r\n"
-				+ "Estava tudo bem até que... três goblins invadem a taberna, humilham o\r\n"
+				+ "Vocï¿½s passam horas conversando. Sem nenhuma noï¿½ï¿½o de tempo.\r\n"
+				+ "Estava tudo bem atï¿½ que... trï¿½s goblins invadem a taberna, humilham o\r\n"
 				+ "taberneiro, e roubam todo seu dinheiro.\r\n"
-				+ "Então o “estranho” que estava na mesa de vocês se levanta vai até o\r\n"
+				+ "Entï¿½o o ï¿½estranhoï¿½ que estava na mesa de vocï¿½s se levanta vai atï¿½ o\r\n"
 				+ "taberneiro e diz:\r\n"
-				+ "-Pai está tudo bem ? -Vocês ficam surpresos por isso, e pensam como ele\r\n"
-				+ "era filho do taberneiro e não nos disse.\r\n"
-				+ "Logo após o taberneiro retruca:\r\n"
-				+ "-Filho, estamos perdidos, eles levaram toda nossa reserva, não sei como\r\n"
+				+ "-Pai estï¿½ tudo bem ? -Vocï¿½s ficam surpresos por isso, e pensam como ele\r\n"
+				+ "era filho do taberneiro e nï¿½o nos disse.\r\n"
+				+ "Logo apï¿½s o taberneiro retruca:\r\n"
+				+ "-Filho, estamos perdidos, eles levaram toda nossa reserva, nï¿½o sei como\r\n"
 				+ "nos manteremos, nem como pagaremos os impostos.\r\n"
-				+ "Então o anão, se levanta e diz:\r\n"
-				+ "-Não se preocupe, nós iremos salvar vocês.\r\n"
-				+ "Vocês olham uns para os outros e lembram de toda hospitalidade do lugar\r\n"
+				+ "Entï¿½o o anï¿½o, se levanta e diz:\r\n"
+				+ "-Nï¿½o se preocupe, nï¿½s iremos salvar vocï¿½s.\r\n"
+				+ "Vocï¿½s olham uns para os outros e lembram de toda hospitalidade do lugar\r\n"
 				+ "e do filho do taberneiro, e assim, concordam.\r\n"
 				+ "", 341, 100);
 
@@ -77,6 +77,7 @@ public class BasicGame extends BasicGameState
 				if(enterPressed) {
 					g.setColor(Color.yellow);
 					g.drawString("continuar", 1250, 700);
+					
 				}
 		
 		// TODO Auto-generated method stub
@@ -88,10 +89,9 @@ public class BasicGame extends BasicGameState
 	{
 		Input input = container.getInput();
 		if(input .isKeyPressed(input.KEY_ENTER)) {
+			System.out.println(Main.aleatorio());
 			enterPressed = true;
-			
 		}
-		
 		// TODO Auto-generated method stub
 		
 	}
