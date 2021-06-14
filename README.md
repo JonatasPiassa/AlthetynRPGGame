@@ -14,4 +14,5 @@ Aluno: Jonatas Piassa de Mattos Mendes - 002201904399.
 
 Estou utilizando a API slick2D, integrada a classe java.util.Random.
 
-Logo teremos algumas atualizações.
+ùltimas atualizações estão dentro da pasta game
+
